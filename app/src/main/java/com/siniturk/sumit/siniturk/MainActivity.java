@@ -1,5 +1,6 @@
 package com.siniturk.sumit.siniturk;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -73,7 +74,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_K430)
         {
-            // Handle the camera action
+            Intent intent = new Intent(this, K430_main.class);
+            startActivity(intent);
+
         }
 
         if (id == R.id.nav_cs02)
