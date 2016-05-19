@@ -71,9 +71,29 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.nav_K430)
+        {
             // Handle the camera action
         }
+
+        if (id == R.id.nav_cs02)
+        {
+            // Handle the camera action
+        }
+
+        if (id == R.id.nav_kyleve)
+        {
+            // Handle the camera action
+        }
+        if (id == R.id.nav_kylevess)
+        {
+            // Handle the camera action
+        }
+        if (id == R.id.nav_kyleveub)
+        {
+            // Handle the camera action
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);

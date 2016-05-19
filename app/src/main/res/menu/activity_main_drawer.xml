@@ -3,9 +3,21 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_K430"
+            android:title="LG K430" />
+        <item
+            android:id="@+id/nav_cs02"
+            android:title="SM-G350" />
+        <item
+            android:id="@+id/nav_kyleve"
+            android:title="GT-S7392" />
+        <item
+            android:id="@+id/nav_kylevess"
+            android:title="GT-S7390" />
+        <item
+            android:id="@+id/nav_kyleveub"
+            android:title="GT-S7392L" />
+
 
     </group>
 
