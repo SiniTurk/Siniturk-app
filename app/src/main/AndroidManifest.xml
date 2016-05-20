@@ -20,12 +20,9 @@
         </activity>
         <activity android:name=".K430_main"
                   android:theme="@style/AppTheme.NoActionBar"/>
-        <activity android:name=".K430.K430_roms"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".K430.K430_recovery"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".K430.K430_kernel"
-            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".K430.K430_roms" />
+        <activity android:name=".K430.K430_recovery" />
+        <activity android:name=".K430.K430_kernel" />
     </application>
 
 </manifest>
