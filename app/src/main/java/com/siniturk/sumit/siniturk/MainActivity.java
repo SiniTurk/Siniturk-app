@@ -13,6 +13,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.os.Bundle;
+import android.annotation.SuppressLint;
+import android.app.Activity;
+import android.view.Menu;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -44,10 +50,14 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @Override
+    @SuppressLint("SetJavaScriptEnabled") @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+// Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
+
+        WebView myWebView = (WebView) findViewById(R.id.webview_main);
+        myWebView.setWebViewClient(new WebViewClient());
+        myWebView.loadUrl("http://siniturk.github.io/");
         return true;
     }
 
