@@ -19,6 +19,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".about"
+            android:theme="@style/AppTheme"/>
+
         <activity android:name=".K430_main"
                   android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".K430.K430_roms" />
