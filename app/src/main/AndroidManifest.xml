@@ -24,7 +24,7 @@
             android:theme="@style/AppTheme"/>
 
         <activity android:name=".K430_main"
-                  android:theme="@style/AppTheme.NoActionBar"/>
+                  android:theme="@style/AppTheme"/>
         <activity android:name=".K430.K430_roms" />
         <activity android:name=".K430.K430_recovery" />
         <activity android:name=".K430.K430_kernel" />
